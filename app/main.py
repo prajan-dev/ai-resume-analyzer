@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://ai-resume-analyzer-three-virid.vercel.app"
+        "https://ai-resume-analyzer-three-virid.vercel.app",
         "https://ai-resume-analyzer-git-main-padmasujah-rajan-s-projects.vercel.app",
     ],
     allow_credentials=True,
