@@ -29,7 +29,7 @@ function App() {
 //        await new Promise(resolve => setTimeout(resolve, 3000));
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload-resume",
+        "https://ai-resume-analyzer-i7zp.onrender.com/upload-resume",
         formData
       );
 
