@@ -67,4 +67,11 @@ AI Features
 GitHub: [https://github.com/prajan-dev](https://github.com/prajan-dev)
 
 Live Demo: 
-https://ai-resume-analyzer-i7zp.onrender.com
+https://ai-resume-analyzer-three-virid.vercel.app
+
+Application Preview
+
+![Home Page](screenshots/home.png)
+
+![Analysis](screenshots/job_analysis.png)
+![Analysis_Result](screenshots/result.png)
