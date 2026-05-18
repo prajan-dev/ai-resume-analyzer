@@ -1,10 +1,8 @@
-# AI Resume Analyzer
+AI Resume Analyzer
 
 An AI-powered full-stack web application that analyzes resumes against job descriptions and provides ATS-style insights using OpenAI APIs.
 
----
-
-# Features
+Features
 
 * Upload resume (.docx)
 * Paste job description
@@ -15,53 +13,32 @@ An AI-powered full-stack web application that analyzes resumes against job descr
 * Resume strengths analysis
 * Modern responsive UI
 * PostgreSQL database integration
-* Cloud deployment with Render + Vercel
+* Cloud deployment with Render and Vercel
 
----
+Tech Stack
 
-# Tech Stack
+Frontend
+React
+Vite
+Tailwind CSS
+Axios
+React Icons
 
-## Frontend
+Backend
+FastAPI
+Python
+OpenAI API
+SQLAlchemy
+PostgreSQL
 
-* React
-* Vite
-* Tailwind CSS
-* Axios
-* React Icons
+Database
+Neon PostgreSQL
 
-## Backend
+Deployment
+Render (Backend)
+Vercel (Frontend)
 
-* FastAPI
-* Python
-* OpenAI API
-* SQLAlchemy
-* PostgreSQL
-
-## Database
-
-* Neon PostgreSQL
-
-## Deployment
-
-* Render (Backend)
-* Vercel (Frontend)
-
----
-
-# Application Preview
-
-## Home Page
-
-* Resume upload
-* Job description input
-* ATS score visualization
-* Skill analysis cards
-
-(Add screenshots here later)
-
----
-
-# Architecture Flow
+Architecture Flow
 
 1. User uploads resume from React frontend.
 2. Frontend sends resume and job description to FastAPI backend.
@@ -72,67 +49,14 @@ An AI-powered full-stack web application that analyzes resumes against job descr
 7. Backend returns JSON response.
 8. Frontend displays ATS score, skills, and suggestions.
 
----
+I
+Live Deployment
 
-# Installation
+Frontend deployed on Vercel
+Backend deployed on Render
+Database hosted on Neon PostgreSQL
 
-## Backend Setup
-
-```bash
-python -m venv .venv
-```
-
-```bash
-.venv\Scripts\activate
-```
-
-```bash
-pip install -r requirements.txt
-```
-
-Run backend:
-
-```bash
-uvicorn app.main:app --reload
-```
-
----
-
-## Frontend Setup
-
-```bash
-cd frontend
-```
-
-```bash
-npm install
-```
-
-Run frontend:
-
-```bash
-npm run dev
-```
-
----
-
-# Live Deployment
-
-## Frontend
-
-Deployed on Vercel
-
-## Backend
-
-Deployed on Render
-
-## Database
-
-Hosted on Neon PostgreSQL
-
----
-
-# AI Features
+AI Features
 
 * Resume skill extraction
 * Job description comparison
@@ -140,22 +64,7 @@ Hosted on Neon PostgreSQL
 * Missing skill analysis
 * AI-generated recommendations
 
----
-
-# Key Learnings
-
-* Full-stack application development
-* REST API development with FastAPI
-* React frontend integration
-* PostgreSQL database management
-* Cloud deployment workflows
-* AI API integration
-* Debugging production issues
-* CORS handling
-
----
-
-# Future Improvements
+Future Improvements
 
 * RAG (Retrieval-Augmented Generation)
 * Vector database integration
@@ -166,16 +75,5 @@ Hosted on Neon PostgreSQL
 * Advanced ATS scoring
 * AI interview preparation suggestions
 
----
-
-# Author
-
-Padmasujah Rajan
 
 GitHub: [https://github.com/prajan-dev](https://github.com/prajan-dev)
-
----
-
-# If you like this project
-
-Give this repository a star
