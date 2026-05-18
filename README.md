@@ -64,16 +64,7 @@ AI Features
 * Missing skill analysis
 * AI-generated recommendations
 
-Future Improvements
-
-* RAG (Retrieval-Augmented Generation)
-* Vector database integration
-* PDF resume parsing
-* Authentication system
-* Resume history dashboard
-* Candidate ranking system
-* Advanced ATS scoring
-* AI interview preparation suggestions
-
-
 GitHub: [https://github.com/prajan-dev](https://github.com/prajan-dev)
+
+Live Demo: 
+https://ai-resume-analyzer-i7zp.onrender.com
