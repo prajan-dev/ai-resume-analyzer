@@ -49,7 +49,7 @@ Architecture Flow
 7. Backend returns JSON response.
 8. Frontend displays ATS score, skills, and suggestions.
 
-I
+
 Live Deployment
 
 Frontend deployed on Vercel
